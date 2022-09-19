@@ -1,0 +1,7 @@
+data petits moyens grands;
+set enfants;
+select;
+when(taille<150) output petits;
+when(taille<160) output moyens;
+otherwise output grands; end;run ;
+
